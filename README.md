@@ -33,7 +33,7 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 My personal portfolio <a href="https://itsmyportfolio-md-farhan-mallicks-projects.vercel.app/about" target="_blank">myportfolio-rosy-nine.vercel.app</a> which features some of my GitHub projects as well as my resume and technical skills.<br/>
 
-This project was built using these technologies.
+This project was built using these technologies:
 
 - React.js
 - Node.js
@@ -66,7 +66,7 @@ The page will reload if you make edits.
 
 ## Usage Instructions
 
-Open the project folder and Navigate to `/src/components/`. <br/>
+Open the project folder and navigate to `/src/components/`. <br/>
 You will find all the components used, and you can edit your information accordingly.
 
 ### Show your support
