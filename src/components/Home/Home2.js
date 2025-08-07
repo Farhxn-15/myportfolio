@@ -18,38 +18,28 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            <p
+              className="home-about-body"
+              style={{ textAlign: "justify", fontSize: "1.15em", lineHeight: "1.6" }}
+            >
+              I am deeply passionate about programming and technology, continuously seeking to expand my expertise and develop high-quality, impactful software solutions.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I have hands-on experience with foundational programming languages including{" "}
               <i>
-                <b className="purple"> Java, Javascript and Python. </b>
+                <b className="purple">C, Java, Python, JavaScript, HTML, and CSS</b>
               </i>
+              , enabling me to build versatile and efficient applications across platforms.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              I am proficient in modern web development technologies and frameworks such as{" "}
+              <b className="purple">React.js, Node.js, and Next.js</b>, which I use to create scalable, responsive, and user-centric applications.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Additionally, I have working knowledge of <b className="purple">Linux</b> systems and <b className="purple">DevOps</b> practices, which help me deliver robust and automated deployment workflows.
+              <br />
+              <br />
+              I am committed to lifelong learning and always stay updated with emerging technologies to innovate and contribute effectively in software development.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,15 +52,20 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to{" "}
+              <span className="purple">connect</span> with me on the following platforms.
             </p>
-            <ul className="home-about-social-links">
+            <ul
+              className="home-about-social-links"
+              style={{ listStyleType: "none", paddingLeft: 0 }}
+            >
               <li className="social-icons">
                 <a
                   href="https://github.com/Farhxn-15"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="GitHub"
                 >
                   <AiFillGithub />
                 </a>
@@ -80,7 +75,8 @@ function Home2() {
                   href="https://twitter.com/FarhanMalick15"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="Twitter"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -90,7 +86,8 @@ function Home2() {
                   href="https://www.linkedin.com/in/farhan-mallick-708a53233"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="LinkedIn"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -101,6 +98,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  aria-label="Instagram"
                 >
                   <AiFillInstagram />
                 </a>
@@ -112,4 +110,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
