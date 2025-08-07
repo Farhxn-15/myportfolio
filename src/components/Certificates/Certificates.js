@@ -25,13 +25,13 @@ function Certificates() {
       name: "Python Data Structures",
       link: "https://smartexam-mum.s3.amazonaws.com/moocsnewdetails/ImageFile/TS034451510358831713523884.pdf",
       duration: "16 Hours",
-      imageUrl: c3,
+      imageUrl: c5,
     },
     {
       name: "Introduction to Data Science in Python",
       link: "https://smartexam-mum.s3.amazonaws.com/moocsnewdetails/ImageFile/TS034451510356461713524018.pdf",
       duration: "32 Hours",
-      imageUrl: c5,
+      imageUrl: c4,
     },
     {
       name: "AI Agents for Everyone and Artificial Intelligence Bootcamp",
