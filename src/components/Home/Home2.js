@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/mechair.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,8 +16,9 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
+  <span className="purple">Come sit with me</span> 👇 <br />
+  LET ME <span className="purple">INTRODUCE</span> MYSELF
+</h1>
             <p
               className="home-about-body"
               style={{ textAlign: "justify", fontSize: "1.15em", lineHeight: "1.6" }}
@@ -42,11 +43,13 @@ function Home2() {
               I am committed to lifelong learning and always stay updated with emerging technologies to innovate and contribute effectively in software development.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+          <Col md={4} className="myAvtar position-relative">
+  <Tilt>
+    <div className="avatar-wrapper">
+      <img src={myImg} alt="Farhan" className="custom-avatar" />
+    </div>
+  </Tilt>
+</Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
