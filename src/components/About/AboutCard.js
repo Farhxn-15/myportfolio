@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently pursuing my B.Tech in Information Technology.
             <br />
-            I have a strong foundation in programming languages including C, Java, HTML, CSS, JavaScript, and React, and I am comfortable working in Linux environments.
+            I have a strong foundation in programming languages including C, Java, HTML, CSS, JavaScript, and React, and I am a Quick learner.
             <br />
             During my internship at Gamerboard, a Singapore-based startup focused on esports, I contributed to a production-based application for esports players, gaining valuable real-world experience.
             <br />
