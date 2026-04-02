@@ -37,7 +37,7 @@ function Home2() {
               <b className="purple">React.js, Node.js, and Next.js</b>, which I use to create scalable, responsive, and user-centric applications.
               <br />
               <br />
-              Additionally, I have working knowledge of <b className="purple">Linux</b> systems and <b className="purple">DevOps</b> practices, which help me deliver robust and automated deployment workflows.
+              Additionally, I am currently working to gain knowledge on <b className="purple">Linux</b> systems and <b className="purple">DevOps</b> practices, which help me deliver robust and automated deployment workflows in future.
               <br />
               <br />
               I am committed to lifelong learning and always stay updated with emerging technologies to innovate and contribute effectively in software development.
