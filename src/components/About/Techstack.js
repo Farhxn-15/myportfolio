@@ -1,13 +1,12 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiPython, DiHtml5, DiCss3, DiJavascript1, DiJava,
-  DiLinux, DiDocker, DiGit, DiNodejs, DiReact,
+  DiHtml5, DiCss3, DiJavascript1, DiJava,
+ DiDocker, DiGit, DiNodejs, DiReact,
   DiMongodb
 } from "react-icons/di";
 import {
-  SiFirebase, SiMysql, SiAmazonaws, SiGithubactions,
-  SiJenkins, SiTerraform
+  SiFirebase, SiMysql, SiAmazonaws, 
 } from "react-icons/si";
 import { FaTerminal } from "react-icons/fa";
 
