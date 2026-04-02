@@ -27,7 +27,7 @@ function Home2() {
               <br />
               I have hands-on experience with foundational programming languages including{" "}
               <i>
-                <b className="purple">C, Java, Python, JavaScript, HTML, and CSS</b>
+                <b className="purple">C, Java, JavaScript, HTML, and CSS</b>
               </i>
               , enabling me to build versatile and efficient applications across platforms.
               <br />

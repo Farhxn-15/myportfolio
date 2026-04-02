@@ -31,10 +31,6 @@ function Techstack() {
         <div style={{ color: "#fff", marginTop: 8, fontSize: "0.35em" }}>Firebase</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
-        <DiPython />
-        <div style={{ color: "#fff", marginTop: 8, fontSize: "0.35em" }}>Python</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
         <SiMysql />
         {/* Name removed for MySQL */}
       </Col>
@@ -55,10 +51,6 @@ function Techstack() {
         <div style={{ color: "#fff", marginTop: 8, fontSize: "0.35em" }}>Java</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
-        <DiLinux />
-        <div style={{ color: "#fff", marginTop: 8, fontSize: "0.35em" }}>Linux</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
         <SiAmazonaws />
         {/* Name removed for AWS */}
       </Col>
@@ -69,18 +61,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
         <DiGit />
         <div style={{ color: "#fff", marginTop: 8, fontSize: "0.35em" }}>Git</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
-        <SiGithubactions />
-        <div style={{ color: "#fff", marginTop: 8, fontSize: "0.35em" }}>GitHub Actions</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
-        <SiJenkins />
-        <div style={{ color: "#fff", marginTop: 8, fontSize: "0.35em" }}>Jenkins</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
-        <SiTerraform />
-        <div style={{ color: "#fff", marginTop: 8, fontSize: "0.35em" }}>Terraform</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
         <DiNodejs />

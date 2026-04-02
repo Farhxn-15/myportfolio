@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import comingSoon from "../../Assets/Projects/coming-soon.png"; // Replace with actual images for each project
+import p0 from "../../Assets/Projects/p0.jpeg"; // Replace with actual images for each project
+import p1 from "../../Assets/Projects/p1.jpeg";
 import p2 from "../../Assets/Projects/p2.png";
 import p3 from "../../Assets/Projects/p3.png";
 import p4 from "../../Assets/Projects/p4.png";
@@ -23,12 +24,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={comingSoon} // Replace with actual Rural Health AI Assistant image
+              imgPath={p0} // Replace with actual Rural Health AI Assistant image
               isBlog={false}
               title="Rural Health AI Assistant"
               description="A web based AI-powered platform designed for sympton analysis and support rural  with diagnostics healthcare recommendations."
-              ghLink="https://github.com/Farhxn-15" // Replace with actual GitHub repo link
+              ghLink="https://github.com/Farhxn-15/RuralHealth-Ai-Assistant" // Replace with actual GitHub repo link
               viewLink="https://myportfolio-md-farhan-mallicks-projects.vercel.app/project" // Replace with live project/demo link
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={p1} // Replace with actual Rural Health AI Assistant image
+              isBlog={false}
+              title="SaaS-based Gaming Marketplace Platform"
+              description="A full-stack SaaS-enabled marketplace that allows gaming sellers to manage products, orders, and revenue through a powerful admin dashboard."
+              ghLink="https://github.com/Farhxn-15/8bp-store" // Replace with actual GitHub repo link
+              viewLink="https://8bp-store.vercel.app/" // Replace with live project/demo link
             />
           </Col>
 
@@ -47,7 +59,7 @@ function Projects() {
             <ProjectCard
               imgPath={p3} // Replace with actual Fake URL Detection image
               isBlog={false}
-              title="Fake URL Detection Website"
+              title="Fake URL Detection Website Made with AI"
               description="A web app that detects phishing and fake URLs to enhance security with effective detection and a simple interface."
               ghLink="https://github.com/Farhxn-15/Fake-Url-Detector" // Replace with actual GitHub repo link
               viewLink="https://fake-url-detector-0fz9.onrender.com/" // Replace with live project link
